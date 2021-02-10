@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula-JavaScript</title>
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <style type="text/css">
+        h1 {
+            display: inline-block;
+            
+        }
+    </style>
+</head>
+<body onload="load()">
+
+    <button type="button" onclick="clicou()">Clique aqui</button>  <br>
+    <h1 id="agradecimento" onclick="redirecionar()"></h1> <br>
+    <h1 id="mouseover" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</h1> <br>
+    <h1 id="mouseover2" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</h1> <br>
+    <select name="" id="" onchange="funcaochanger(this)">
+        <option value="1">Valor 1</option>
+        <option value="2">Valor 2</option>
+        <option value="3">Valor 3</option>
+    </select>
+</body>
+</html>
